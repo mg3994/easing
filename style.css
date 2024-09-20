@@ -1,0 +1,26 @@
+:root {
+  --width: 250px;  
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div {
+  color: white;
+  font-family: Operator Mono Ssm, Andale Mono, monospace;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 1rem;
+}
+canvas {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: var(--width);
+}
+
+body, html {
+  height: 100%;
+  background: #111;
+}
